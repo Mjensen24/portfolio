@@ -26,6 +26,10 @@ function App() {
                 <p>My name is Michael and I'm a fullstack developer with a passion for creation. My experience includes Javascript, Python, CSS, HTML, React/Redux, PSQL, and sequelize. I love being challenged by a problem and using my creativity and ingenuity to solve it, including debugging and clearning up my code. There is no better feeling in the world than spending hours attempting to fix a problem and watching the code run as you imagined and designed.</p>
                 <p>My name is Michael and I'm a fullstack developer with a passion for creation. My experience includes Javascript, Python, CSS, HTML, React/Redux, PSQL, and sequelize. I love being challenged by a problem and using my creativity and ingenuity to solve it, including debugging and clearning up my code. There is no better feeling in the world than spending hours attempting to fix a problem and watching the code run as you imagined and designed. There is no better feeling in the world than spending hours attempting to fix a problem and watching the code run as you imagined and designed.</p>
                 <p>I hope to hear form you soon! This is test writing just to make space please ignore this for now.</p>
+                <div className="button-container">
+                  <button className="download-button">Download Resume</button>
+                  <button className="contact-button">Contact Me</button>
+                </div>
               </div>
             </div>
           </div>

@@ -233,7 +233,7 @@
 }
 
 .about-me_info {
-  width: 950px;
+  width: 935px;
   height: 639px;
   background-color: #1f232b;
   display: flex;
@@ -243,6 +243,7 @@
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
   color: #F3E8EE;
+  border-left: 3px solid #82FF9E;
 }
 
 .about-me_info h1 {
@@ -272,6 +273,50 @@
   font-size: 15px;
 }
 
+.button-container {
+  margin-left: 15px;
+  margin-top: 20px;
+  width: 420px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.download-button, .contact-button {
+  height: 38px;
+  border: none;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: white;
+  /* font-weight: 600; */
+}
+
+.download-button{
+  width: 220px;
+  background-color: #1B998B;
+  font-family: 'Epilogue', sans-serif;
+  transition: .3s;
+
+}
+
+.download-button:hover {
+  background-color: #1cad9c;
+  transition: .3s;
+}
+
+.contact-button {
+  width: 180px;
+  background-color: #4C8577;
+  font-family: 'Epilogue', sans-serif;
+  transition: .3s;
+}
+
+.contact-button:hover {
+  background-color: #5da08f;
+  transition: .3s;
+}
+
 .about-bullet {
   width: 300px;
   margin: 0;
@@ -291,17 +336,17 @@
   width: 100%;
   height: fit-content;
   display: grid;
-  grid-template-columns: repeat(4, 400px);
+  grid-template-columns: repeat(4, 420px);
   justify-content: center;
   column-gap: 15px;
   row-gap: 15px;
   margin-bottom: 100px;
 }
 
-@media screen and (max-width: 1662px) {
+@media screen and (max-width: 1790px) {
   .about-tab_container {
     grid-template-columns: repeat(2, 530px);
-    justify-content: space-evenly;
+    justify-content: center;
   }
 }
 
