@@ -20,7 +20,9 @@ function App() {
           <h1>About</h1>
           <div className="about-tab_container">
             <div className="about-tab">
-              <div className='about-tab_photo'></div>
+              <div className='about-tab_photo'>
+                <img className="computer-img" src="../comp.png" alt="The one and only"></img>
+              </div>
               <div className="about-tab_content">
                 <HiOutlineDesktopComputer />
                 <h2>Always improving</h2>
@@ -28,7 +30,9 @@ function App() {
               </div>
             </div>
             <div className="about-tab">
-              <div className='about-tab_photo'></div>
+              <div className='about-tab_photo'>
+                <img className="coffee-img" src="../pixel-coffee.jpg" alt="The one and only"></img>
+              </div>
               <div className="about-tab_content">
                 <FiCoffee />
                 <h2>Fueled By Coffee</h2>
@@ -36,7 +40,9 @@ function App() {
               </div>
             </div>
             <div className="about-tab">
-              <div className='about-tab_photo'></div>
+              <div className='about-tab_photo'>
+                <img className="code-img" src="../code.png" alt="The one and only"></img>
+              </div>
               <div className="about-tab_content">
                 <BsCodeSlash />
                 <h2>A Little Obsessive</h2>
@@ -44,7 +50,9 @@ function App() {
               </div>
             </div>
             <div className="about-tab">
-              <div className='about-tab_photo'></div>
+              <div className='about-tab_photo'>
+                <img src="../lofi.jpg" alt="The one and only"></img>
+              </div>
               <div className="about-tab_content">
                 <HiOutlineDesktopComputer />
                 <h2>Always improving</h2>

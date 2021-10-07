@@ -244,24 +244,53 @@
 }
 
 .about-tab_photo {
-  height: 40%;
+  display: flex;
+  justify-content: flex-start;
+  height: 50%;
   width: 100%;
   position: relative;
-  left: .3px;
-  top: -.5px;
+  /* left: .3px;
+  top: -.5px; */
   /* background-image: url('./images/lofi.jpg');
   background-position: center;
-  background-size: contain; */
-  background-color: #4C8577;
-  clip-path: polygon(0 0,100% 0, 100% 20%, 0 100%);
+  background-size:cover; */
+  background-image: linear-gradient(200deg, #82FF9E, #a0989c);
+  clip-path: polygon(0 0,100% 0, 60% 0%, 0% 100%);
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
 }
 
+.about-tab_photo > img {
+  /* position: relative; */
+  /* right: 1px;
+  bottom: 1px; */
+  opacity: .65;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.computer-img {
+   position: relative;
+  /* right: 2px;
+  bottom: 1px; */
+  height: 100%;
+  width: 70%;
+}
+
+.coffee-img {
+  height: 100%;
+  width: 64%;
+}
+
+.code-img {
+  height: 100%;
+  width: 64%;
+}
+
 .about-tab_content {
-  height: 60%;
+  height: 50%;
   position: relative;
-  top: -50px;
+  top: -110px;
   width: 95%;
   color: white;
 }
