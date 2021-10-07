@@ -24,13 +24,8 @@ function App() {
               <div className="about-me_info">
                 <h1>Hi Friends</h1>
                 <p>My name is Michael and I'm a fullstack developer with a passion for creation. My experience includes Javascript, Python, CSS, HTML, React/Redux, PSQL, and sequelize. I love being challenged by a problem and using my creativity and ingenuity to solve it, including debugging and clearning up my code. There is no better feeling in the world than spending hours attempting to fix a problem and watching the code run as you imagined and designed.</p>
-                <ul>
-                  <li>Name Michael Jensen</li>
-                  <li>Age 25 Years</li>
-                  <li>Location Falls Church, VA</li>
-                  <li>e-mail mcjensen24@gmail.com</li>
-                  <li>Phone (703) 638-9397</li>
-                </ul>
+                <p>My name is Michael and I'm a fullstack developer with a passion for creation. My experience includes Javascript, Python, CSS, HTML, React/Redux, PSQL, and sequelize. I love being challenged by a problem and using my creativity and ingenuity to solve it, including debugging and clearning up my code. There is no better feeling in the world than spending hours attempting to fix a problem and watching the code run as you imagined and designed. There is no better feeling in the world than spending hours attempting to fix a problem and watching the code run as you imagined and designed.</p>
+                <p>I hope to hear form you soon! This is test writing just to make space please ignore this for now.</p>
               </div>
             </div>
           </div>
