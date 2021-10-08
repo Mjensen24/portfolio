@@ -1,3 +1,10 @@
+.particles-js-canvas-el {
+  /* position: absolute;
+    width: 1000%;
+    height: 100%;
+    z-index: -1; */
+}
+
 /* HEADER */
 
 .header-container {
@@ -168,6 +175,14 @@
 }
 
 .navbar-info > h1 {
+  margin: 0;
+  color: white;
+}
+
+.navbar-info > a {
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 600;
   margin: 0;
   color: white;
 }
