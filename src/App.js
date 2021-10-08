@@ -36,7 +36,7 @@ function App() {
           <div className="about-tab_container">
             <div className="about-tab">
               <div className='about-tab_photo'>
-                <img className="computer-img" src="../comp.png" alt="The one and only"></img>
+                <img className="computer-img" src="../images/comp.png" alt="The one and only"></img>
               </div>
               <div className="about-tab_content">
                 <HiOutlineDesktopComputer />
@@ -46,7 +46,7 @@ function App() {
             </div>
             <div className="about-tab">
               <div className='about-tab_photo'>
-                <img className="coffee-img" src="../pixel-coffee.jpg" alt="The one and only"></img>
+                <img className="coffee-img" src="../../images/pixel-coffee.jpg" alt="The one and only"></img>
               </div>
               <div className="about-tab_content">
                 <FiCoffee />
@@ -56,7 +56,7 @@ function App() {
             </div>
             <div className="about-tab">
               <div className='about-tab_photo'>
-                <img className="code-img" src="../code.png" alt="The one and only"></img>
+                <img className="code-img" src="../../images/code.png" alt="The one and only"></img>
               </div>
               <div className="about-tab_content">
                 <BsCodeSlash />
@@ -66,7 +66,7 @@ function App() {
             </div>
             <div className="about-tab">
               <div className='about-tab_photo'>
-                <img className="computer-img" src="../comp.png" alt="The one and only"></img>
+                <img className="computer-img" src="../../images/comp.png" alt="The one and only"></img>
               </div>
               <div className="about-tab_content">
                 <HiOutlineDesktopComputer />
@@ -81,18 +81,54 @@ function App() {
         <div className="skills-info">
           <h1>Skills</h1>
           <div className="skills-tab_container">
-            <div className="skills-tab">Box</div>
-            <div className="skills-tab">Box</div>
-            <div className="skills-tab">Box</div>
-            <div className="skills-tab">Box</div>
-            <div className="skills-tab">Box</div>
-            <div className="skills-tab">Box</div>
-            <div className="skills-tab">Box</div>
-            <div className="skills-tab">Box</div>
-            <div className="skills-tab">Box</div>
-            <div className="skills-tab">Box</div>
-            <div className="skills-tab">Box</div>
-            <div className="skills-tab">Box</div>
+            <div className="skills-tab">
+              <img src="../../images/javascript_icon.png" alt="The one and only"></img>
+              <h3>JavaScript</h3>
+            </div>
+            <div className="skills-tab">
+              <img src="../../images/python-icon.png" alt="The one and only"></img>
+              <h3>Python</h3>
+            </div>
+            <div className="skills-tab">
+              <img src="../../images/html-icon.png" alt="The one and only"></img>
+              <h3>HTML</h3>
+            </div>
+            <div className="skills-tab">
+              <img src="../../images/css-icon.png" alt="The one and only"></img>
+              <h3>CSS</h3>
+            </div>
+            <div className="skills-tab">
+              <img src="../../images/react-icon.png" alt="The one and only"></img>
+              <h3>React</h3>
+            </div>
+            <div className="skills-tab">
+              <img src="../../images/redux-icon.png" alt="The one and only"></img>
+              <h3>Redux</h3>
+            </div>
+            <div className="skills-tab">
+              <img src="../../images/node-icon.png" alt="The one and only"></img>
+              <h3>NodeJS</h3>
+            </div>
+            <div className="skills-tab">
+              <img src="../../images/flask.png" alt="The one and only"></img>
+              <h3>Flask</h3>
+            </div>
+            <div className="skills-tab">
+              <img src="../../images/PSQL.png" alt="The one and only"></img>
+              <h3>PSQL</h3>
+            </div>
+            <div className="skills-tab">
+              <img src="../../images/sequelize.png" alt="The one and only"></img>
+              <h3>Sequelize</h3>
+            </div>
+            <div className="skills-tab">
+              <img src="../../images/sql-alchemy.png" alt="The one and only"></img>
+              <h3>SQLAlchemy</h3>
+            </div>
+            <div className="skills-tab">
+              <img src="../../images/Git_icon.svg.png" alt="The one and only"></img>
+              <h3>Git</h3>
+            </div>
           </div>
         </div>
       </div>
