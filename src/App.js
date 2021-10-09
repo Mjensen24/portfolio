@@ -1,11 +1,16 @@
 import './App.css';
 import { HiOutlineDesktopComputer } from 'react-icons/hi';
 import { FiCoffee, FiPaperclip } from 'react-icons/fi';
-import { BsCodeSlash, BsChatLeftText, BsBook, BsEye } from 'react-icons/bs';
+import { BsCodeSlash, BsChatLeftText, BsBook, BsEye, BsPhone } from 'react-icons/bs';
+import { AiOutlineFacebook, AiFillGithub, AiOutlineInstagram, AiOutlineLinkedin } from 'react-icons/ai';
+
+import ContactForm from './contactForm';
+
 
 function App() {
   return (
     <div className="app-container">
+      {/* NAVBAR */}
       <div id='about'></div>
       <div className="navbar-container">
         <div className="navbar-info">
@@ -16,6 +21,7 @@ function App() {
           <a href="#contact">Contact</a>
         </div>
       </div>
+      {/* ABOUT */}
       <div className="about-container">
         <div className="about-info">
           <h1>About</h1>
@@ -78,6 +84,7 @@ function App() {
           </div>
         </div>
       </div>
+      {/* SKILLS */}
       <div id="skills" className="skills-container">
         <div className="skills-info">
           <h1>Skills</h1>
@@ -133,6 +140,7 @@ function App() {
           </div>
         </div>
       </div>
+      {/* PROJECTS */}
       <div id="projects" className="projects-container">
         <h1>Projects</h1>
         <div className="projects-tab_container">
@@ -146,7 +154,6 @@ function App() {
                 <button className="code-button"> <BsCodeSlash />Code</button>
               </div>
             </div>
-
           </div>
           <div className="project-tab_right">
             <div className="project-info">
@@ -181,6 +188,27 @@ function App() {
             </div>
             <div className="project-photo_right infinium"></div>
           </div>
+        </div>
+      </div>
+      <div id="contact" className="contact-container">
+        <h1>Contact</h1>
+        <div className="form-container">
+          <div className="form-info_container">
+            <ContactForm />
+            <div className="contact-info">
+              <h2>Where to find me</h2>
+              <div className="social-container">
+                <a href="https://www.facebook.com/conrad.jensen.98"><AiOutlineFacebook /></a>
+                <a href="https://www.facebook.com/conrad.jensen.98"><AiOutlineInstagram /></a>
+                <a href="https://www.facebook.com/conrad.jensen.98"><AiOutlineLinkedin /></a>
+                <a href="https://www.facebook.com/conrad.jensen.98"><AiFillGithub /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="footer-container">
+          <h3>Michael Jensen</h3>
+          <h3 id="copyright">©2020-2021</h3>
         </div>
       </div>
     </div>

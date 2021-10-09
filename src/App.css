@@ -161,6 +161,7 @@
   height: 60px;
   background-color: #1f232b;
   display: flex;
+  width: 100%;
   justify-content: flex-start;
   align-items: center;
   border-bottom: 5px solid #82FF9E;
@@ -168,23 +169,23 @@
 
 .navbar-info {
   display: flex;
+  /* grid-template-columns: repeat(5, 250px); */
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   width: 700px;
 }
 
-.navbar-info > h1 {
-  margin: 0;
-  color: white;
-}
-
 .navbar-info > a {
+  /* display: flex;
+  justify-content: flex-start;
+  align-items: center; */
   text-decoration: none;
   font-size: 32px;
   font-weight: 600;
   margin: 0;
   color: white;
+  /* width: 100%; */
 }
 
 /* ABOUT */
@@ -398,6 +399,15 @@ button > svg {
   }
 
 }
+
+/* @media screen and (max-width: 700px) {
+  .about-me_container {
+    width: 300px;
+  }
+  .about-me_photo {
+    width: 100%;
+  }
+} */
 
 .about-tab_container {
   width: 100%;
@@ -798,11 +808,203 @@ button > svg {
 
 /* CONTACT ME */
 
-.footer-container {
-  height: 969px;
+.contact-container {
+  position: relative;
+  height: 960px;
+  width: 100%;
   background-color: #2B303A;
+  background-image: url('./images/lofi5.gif');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+
+}
+
+.contact-container > h1 {
+  margin: 0;
+  margin-bottom: 80px;
+  margin-top: 90px;
+  color: #F5F5F5;
+  font-size: 50px;
+}
+
+.form-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 460px;
+  width: 855px;
+  background-color: #2B303A;
+  border-radius: 20px;
+  opacity: .8;
+  /* box-shadow: 15px 10px 18px #1a1d24; */
+}
+
+.form-info_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+.contact-form {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.contact-form input, textarea {
+  width: 360px;
+  border: none;
+  margin-top: 10px;
+  font-family: monospace;
+}
+
+.contact-form > h2 {
+  margin: 0;
+  margin-bottom: 5px;
+  color: #F5F5F5;
+  width: 360px;
+}
+
+.contact-form > h3 {
+  margin: 0;
+  color: #F5F5F5;
+  width: 360px;
+}
+
+.contact-form input {
+  height: 35px;
+}
+
+.contact-form textarea {
+  height: 200px;
+}
+
+.submit-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 360px;
+}
+
+.contact-form button {
+  margin-top: 10px;
+  width: 80px;
+  height: 25px;
+  border: none;
+  font-family: monospace;
+}
+
+.contact-info {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  color: white;
+}
+
+.contact-info > h2 {
+  margin: 0;
+  width: 360px;
+  text-align: right;
+  margin-bottom: 16px;
+}
+
+.contact-tab {
+  width: 360px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contact-tab > h3 {
+  margin: 0;
+}
+
+.contact-tab > svg {
+  color: white;
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.social-container {
+  width: 395px;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: repeat(2, 140px);
+  justify-content: flex-end;
+  column-gap: 25px;
+  row-gap: 24px;
+}
+
+.social-container > a svg {
+  text-decoration: none;
+  color: white;
+  height: 100%;
+  width: 100%;
+  transition: .3s;
+}
+
+.social-container > a svg:hover {
+  transition: .3s;
+  color: #82FF9E;
+}
+
+/* FOOTER */
+
+.footer-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #16191f;
+  color: white;
+}
+
+.footer-container > h3 {
+  margin: 0;
+  margin-right: 5px;
+}
+
+#copyright {
+  color: #82FF9E;
+}
+
+.thanks {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 360px;
+  height: 100%;
+  background-image: url("./images/nikoandme.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+
+.thanks h1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
 }
