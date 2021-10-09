@@ -1,7 +1,7 @@
 import './App.css';
 import { HiOutlineDesktopComputer } from 'react-icons/hi';
 import { FiCoffee, FiPaperclip } from 'react-icons/fi';
-import { BsCodeSlash, BsChatLeftText } from 'react-icons/bs';
+import { BsCodeSlash, BsChatLeftText, BsBook } from 'react-icons/bs';
 
 function App() {
   return (
@@ -36,10 +36,10 @@ function App() {
           <div className="about-tab_container">
             <div className="about-tab">
               <div className='about-tab_photo'>
-                <img className="computer-img" src="../images/comp.png" alt="The one and only"></img>
+                <img className="computer-img" src="../images/pixel-book.png" alt="The one and only"></img>
               </div>
               <div className="about-tab_content">
-                <HiOutlineDesktopComputer />
+                <BsBook />
                 <h2>Always improving</h2>
                 <h4>When I'm not working I spend my days studying and building. This website is constantly evolving, comeback in a few days and you might notice a few changes. Most nights I can be found at my desk staying up far too late to solve that "last" problem.</h4>
               </div>
@@ -56,7 +56,7 @@ function App() {
             </div>
             <div className="about-tab">
               <div className='about-tab_photo'>
-                <img className="code-img" src="../../images/code.png" alt="The one and only"></img>
+                <img className="code-img" src="../../images/pixel-keyboard.png" alt="The one and only"></img>
               </div>
               <div className="about-tab_content">
                 <BsCodeSlash />
@@ -70,7 +70,7 @@ function App() {
               </div>
               <div className="about-tab_content">
                 <HiOutlineDesktopComputer />
-                <h2>Always improving</h2>
+                <h2>I Love Computers</h2>
                 <h4>When I'm not working I spend my days studying and building. This website is constantly evolving, comeback in a few days and you might notice a few changes. Most nights I can be found at my desk staying up far too late to solve that "last" problem.</h4>
               </div>
             </div>
@@ -132,8 +132,26 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="projects-container">
-
+      <div id="projects" className="projects-container">
+        <h1>Projects</h1>
+        <div className="projects-tab_container">
+          <div className="project-tab_left">
+            <div className="project-photo_left instavibes"></div>
+            <div className="project-info"></div>
+          </div>
+          <div className="project-tab_right">
+            <div className="project-info"></div>
+            <div className="project-photo_right sycamore"></div>
+          </div>
+          <div className="project-tab_left">
+            <div className="project-photo_left ironlogs"></div>
+            <div className="project-info"></div>
+          </div>
+          <div className="project-tab_right">
+            <div className="project-info"></div>
+            <div className="project-photo_right infinium"></div>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -430,6 +430,7 @@ button > svg {
   justify-content: center;
   align-items: center;
   border-radius: 20px;
+  border-top-left-radius: 30px;
   text-align: center;
   background-color: #1f232b;
   box-shadow: 15px 10px 18px #888888;
@@ -456,7 +457,7 @@ button > svg {
 .about-tab_photo > img {
   opacity: .3;
   border-top-right-radius: 20px;
-  border-top-left-radius: 18px;
+  border-top-left-radius: 20px;
   transition: .3s;
 }
 
@@ -517,7 +518,7 @@ button > svg {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 800px;
+  height: fit-content;
   width: 99%;
 }
 
@@ -530,13 +531,15 @@ button > svg {
 }
 
 .skills-tab_container {
-  height: 650px;
+  height: fit-content;
   width: 100%;
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(6, 255px);
   column-gap: 15px;
   row-gap: 15px;
+  padding-bottom: 130px;
+
 }
 
 .skills-tab {
@@ -544,6 +547,7 @@ button > svg {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 250px;
   /* background-color: aqua; */
 }
 
@@ -559,7 +563,7 @@ button > svg {
   color: #1f232b;
 }
 
-@media screen and (max-width: 1525px) {
+@media screen and (max-width: 1790px) {
   .skills-tab_container {
     grid-template-columns: repeat(4, 295px);
   }
@@ -589,3 +593,125 @@ button > svg {
 }
 
 /* PROJECTS */
+
+.projects-container {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F5F5;
+}
+
+.projects-container > h1 {
+  margin: 0;
+  margin-bottom: 22px;
+  margin-top: 110px;
+  color: #1f232b;
+  font-size: 50px;
+}
+
+.projects-tab_container {
+  width: 100%;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: repeat(2, 855px);
+  justify-content: center;
+  column-gap: 15px;
+  row-gap: 15px;
+  margin-bottom: 130px;
+  margin-top: 80px;
+}
+
+.project-tab_left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 460px;
+  background-color: #1f232b;
+  border-radius: 20px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  box-shadow: 15px 10px 18px #888888;
+}
+
+.project-tab_right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 460px;
+  background-color: #1f232b;
+  border-radius: 20px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 15px 10px 18px #888888;
+}
+
+@media screen and (max-width: 1790px) {
+  .projects-tab_container {
+    grid-template-columns: repeat(1, 855px);
+
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .projects-tab_container {
+    grid-template-columns: repeat(1, 600px);
+
+  }
+}
+
+.project-photo_left {
+  width: 45%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: white;
+  border-right: 5px solid #82FF9E;
+}
+
+.project-photo_right {
+  width: 45%;
+  height: 100%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: white;
+  border-left: 5px solid #82FF9E;
+}
+
+.instavibes {
+  background-image: url('./images/instavibes.png');
+  background-position: center top 60px;
+  background-repeat: no-repeat;
+  background-size: 380px;
+}
+
+.sycamore {
+  background-image: url('./images/sycamore2.png');
+  background-position: center;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+.infinium {
+  background-image: url('./images/infinium.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 380px;
+}
+
+.ironlogs {
+  background-image: url('./images/ironlogs.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-color: #008080;
+}
+
+.project-info {
+  width: 55%;
+  height: 100%;
+}
