@@ -132,6 +132,9 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="projects-container">
+
+      </div>
     </div>
   );
 }
