@@ -245,6 +245,15 @@
   background-repeat: no-repeat;
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
+  transition: .5s;
+}
+
+.about-me_photo:hover {
+  background-image: url('./images/niko.png') !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: .5s;
+
 }
 
 .about-me_info {
@@ -294,7 +303,6 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
   color: white;
-  /* font-weight: 600; */
 }
 
 button > svg {
@@ -624,6 +632,7 @@ button > svg {
 }
 
 .project-tab_left {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -637,6 +646,7 @@ button > svg {
 }
 
 .project-tab_right {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -714,4 +724,85 @@ button > svg {
 .project-info {
   width: 55%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.project-info > h2 {
+  font-size: 30px;
+  margin: 0;
+  margin-top: 25px;
+}
+
+.project-info > h4 {
+  font-size: 19px;
+  width: 90%;
+}
+
+.project-button_container {
+  position: absolute;
+  top: 345px;
+  margin-top: 28px;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.demo-button, .code-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+  border: none;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: white;
+}
+
+button > svg {
+  margin-right: 7px;
+}
+
+.demo-button > svg {
+  margin-bottom: 1px;
+}
+
+.demo-button{
+  width: 100px;
+  background-color: #1B998B;
+  font-family: 'Epilogue', sans-serif;
+  transition: .3s;
+
+}
+
+.demo-button:hover {
+  background-color: #1cad9c;
+  transition: .3s;
+}
+
+.code-button {
+  width: 100px;
+  background-color: #4C8577;
+  font-family: 'Epilogue', sans-serif;
+  transition: .3s;
+}
+
+.code-button:hover {
+  background-color: #5da08f;
+  transition: .3s;
+}
+
+/* CONTACT ME */
+
+.footer-container {
+  height: 969px;
+  background-color: #2B303A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

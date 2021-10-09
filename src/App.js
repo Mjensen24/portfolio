@@ -1,11 +1,12 @@
 import './App.css';
 import { HiOutlineDesktopComputer } from 'react-icons/hi';
 import { FiCoffee, FiPaperclip } from 'react-icons/fi';
-import { BsCodeSlash, BsChatLeftText, BsBook } from 'react-icons/bs';
+import { BsCodeSlash, BsChatLeftText, BsBook, BsEye } from 'react-icons/bs';
 
 function App() {
   return (
     <div className="app-container">
+      <div id='about'></div>
       <div className="navbar-container">
         <div className="navbar-info">
           <a href="#home">Home</a>
@@ -15,12 +16,12 @@ function App() {
           <a href="#contact">Contact</a>
         </div>
       </div>
-      <div id="about" className="about-container">
+      <div className="about-container">
         <div className="about-info">
           <h1>About</h1>
           <div className="about-me">
             <div className="about-me_container">
-              <div className="about-me_photo"></div>
+              <div className="about-me_photo" onLoad></div>
               <div className="about-me_info">
                 <h1>Hi Friends</h1>
                 <p>My name is Michael and I'm a fullstack developer with a passion for creation. My experience includes Javascript, Python, CSS, HTML, React/Redux, PSQL, and sequelize. I love being challenged by a problem and using my creativity and ingenuity to solve it, including debugging and clearning up my code. There is no better feeling in the world than spending hours attempting to fix a problem and watching the code run as you imagined and designed.</p>
@@ -137,18 +138,47 @@ function App() {
         <div className="projects-tab_container">
           <div className="project-tab_left">
             <div className="project-photo_left instavibes"></div>
-            <div className="project-info"></div>
+            <div className="project-info">
+              <h2>InstaVibes</h2>
+              <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At tempor commodo ullamcorper a lacus vestibulum sed. Elit duis tristique sollicitudin nibh. Eu consequat ac felis donec. Adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit. Tortor id aliquet lectus proin nibh nisl. Proin fermentum leo vel orci porta non pulvinar neque. Enim ut sem viverra aliquet eget sit amet.</h4>
+              <div className="project-button_container">
+                <button className="demo-button"> <BsEye />Demo</button>
+                <button className="code-button"> <BsCodeSlash />Code</button>
+              </div>
+            </div>
+
           </div>
           <div className="project-tab_right">
-            <div className="project-info"></div>
+            <div className="project-info">
+              <h2>Sycamore Homes</h2>
+              <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At tempor commodo ullamcorper a lacus vestibulum sed. Elit duis tristique sollicitudin nibh. Eu consequat ac felis donec. Adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit. Tortor id aliquet lectus proin nibh nisl. Proin fermentum leo vel orci porta non pulvinar neque. Enim ut sem viverra aliquet eget sit amet.</h4>
+              <div className="project-button_container">
+                <button className="demo-button"> <BsEye />Demo</button>
+                <button className="code-button"> <BsCodeSlash />Code</button>
+              </div>
+            </div>
             <div className="project-photo_right sycamore"></div>
           </div>
           <div className="project-tab_left">
             <div className="project-photo_left ironlogs"></div>
-            <div className="project-info"></div>
+            <div className="project-info">
+              <h2>Iron Logs</h2>
+              <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At tempor commodo ullamcorper a lacus vestibulum sed. Elit duis tristique sollicitudin nibh. Eu consequat ac felis donec. Adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit. Tortor id aliquet lectus proin nibh nisl. Proin fermentum leo vel orci porta non pulvinar neque. Enim ut sem viverra aliquet eget sit amet.</h4>
+              <div className="project-button_container">
+                <button className="demo-button"> <BsEye />Demo</button>
+                <button className="code-button"> <BsCodeSlash />Code</button>
+              </div>
+            </div>
           </div>
           <div className="project-tab_right">
-            <div className="project-info"></div>
+            <div className="project-info">
+              <h2>Infinium</h2>
+              <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At tempor commodo ullamcorper a lacus vestibulum sed. Elit duis tristique sollicitudin nibh. Eu consequat ac felis donec. Adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit. Tortor id aliquet lectus proin nibh nisl. Proin fermentum leo vel orci porta non pulvinar neque. Enim ut sem viverra aliquet eget sit amet.</h4>
+              <div className="project-button_container">
+                <button className="demo-button"> <BsEye />Demo</button>
+                <button className="code-button"> <BsCodeSlash />Code</button>
+              </div>
+            </div>
             <div className="project-photo_right infinium"></div>
           </div>
         </div>
