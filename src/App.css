@@ -249,7 +249,7 @@
   transition: .5s;
 }
 
-.about-me_photo:hover {
+.about-me_container:hover .about-me_photo {
   background-image: url('./images/niko.png') !important;
   background-position: center;
   background-repeat: no-repeat;
